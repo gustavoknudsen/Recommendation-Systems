@@ -53,6 +53,11 @@ cd recommendation-systems
 
 # install dependencies
 pip install -r requirements.txt
+
+# DOWNLOADS
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger_eng')
 ```
 
 ## Usage
