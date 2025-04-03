@@ -64,11 +64,11 @@ nltk.download('averaged_perceptron_tagger_eng')
 
 The project is organized as Jupyter notebooks:
 
-1. `eda_fe_content_based_recommender.ipynb`: EDA, Feature Engineering, Content-Based Recommender
-2. `clustering_based_recommender.ipynb`: Unsupervised Clustering-Based Recommenders
-3. `collaborative_filtering_recommender.ipynb`: Collaborative Filtering Recommenders using `Suprise`
-4. `neural_network_recommender.ipynb`: Neural Network, Regression, & Classification Recommenders
+1. `EDA_FE_content.ipynb`: EDA, Feature Engineering, Content-Based Recommender
+2. `clustering.ipynb`: Unsupervised Clustering-Based Recommenders
+3. `collaborative_filtering.ipynb`: Collaborative Filtering Recommenders using `Suprise`
+4. `hybrid_recommenders.ipynb`: Neural Network, Regression, & Classification Recommenders
 
 ## Acknowledgments
 
-- IBM for providing the educational dataset and  course
+- IBM for providing the educational dataset and delivering the course
