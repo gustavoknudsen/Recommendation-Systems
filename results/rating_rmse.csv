@@ -1,0 +1,28 @@
+family,model,test_rmse,source
+Neural network,NN1,0.8201,neural_embedding_models
+Neural network,NN2,0.8173,neural_embedding_models
+Embedding regression,Linear Regression,0.8134,neural_embedding_models
+Embedding regression,Ridge,0.8134,neural_embedding_models
+Embedding regression,Lasso,0.8123,neural_embedding_models
+Embedding regression,ElasticNet,0.8123,neural_embedding_models
+Embedding regression,Random Forest,0.8135,neural_embedding_models
+Embedding regression,Gradient Boosting,0.8134,neural_embedding_models
+Embedding regression,XGBoost,0.8254,neural_embedding_models
+Embedding regression,LightGBM,0.8213,neural_embedding_models
+Embedding regression,Linear SVR,0.8134,neural_embedding_models
+Embedding classification,Logistic Regression,1.1743,neural_embedding_models
+Embedding classification,Decision Tree,1.1790,neural_embedding_models
+Embedding classification,Random Forest,1.1852,neural_embedding_models
+Embedding classification,Bagging,1.1591,neural_embedding_models
+Embedding classification,AdaBoost,1.2868,neural_embedding_models
+Embedding classification,Gradient Boosting,1.1714,neural_embedding_models
+Embedding classification,XGBoost,1.1574,neural_embedding_models
+Embedding classification,LightGBM,1.1563,neural_embedding_models
+Collaborative filtering,Baseline (user + item bias),0.8181,collaborative_filtering
+Collaborative filtering,KNN user-based,0.8222,collaborative_filtering
+Collaborative filtering,KNN item-based,0.8786,collaborative_filtering
+Collaborative filtering,NMF,0.9391,collaborative_filtering
+Collaborative filtering,SVD,0.8253,collaborative_filtering
+Collaborative filtering,"ALS explicit, PySpark (rank 5, reg 0.5)",0.8124,als_pyspark
+Baseline,Global mean,0.8123,model_comparison
+Baseline,Course mean,0.8128,model_comparison

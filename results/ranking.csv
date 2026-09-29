@@ -1,0 +1,20 @@
+family,model,hit_rate@10,ndcg@10,source
+Content-based,Genre profile,0.1616,0.0626,EDA_FE_content_rec
+Content-based,Bag of words similarity,0.2757,0.1426,EDA_FE_content_rec
+Content-based,TF-IDF similarity,0.3527,0.1782,EDA_FE_content_rec
+Content-based,Word2Vec similarity,0.2596,0.1399,EDA_FE_content_rec
+Hybrid,LightGBM ranker,0.7906,0.5642,hybrid_recommenders
+Hybrid,XGBoost ranker,0.7951,0.5654,hybrid_recommenders
+Clustering,KMeans,0.6662,0.4260,clustering
+Clustering,KMeans on PCA,0.6653,0.4222,clustering
+Clustering,DBSCAN,0.5895,0.3531,clustering
+Clustering,HAC Ward-Euclidean,0.6735,0.4305,clustering
+Clustering,HAC Complete-Cosine,0.6561,0.4087,clustering
+Clustering,HAC Average-Manhattan,0.5760,0.3422,clustering
+Collaborative filtering,Item KNN (k=125),0.7379,0.5248,collaborative_filtering
+Collaborative filtering,User KNN (k=200),0.7856,0.5630,collaborative_filtering
+Collaborative filtering,PureSVD (rank=4),0.6946,0.4712,collaborative_filtering
+Baseline,SVD on ratings (ranked by predicted rating),0.0857,0.0398,collaborative_filtering
+Collaborative filtering,"ALS implicit, PySpark (rank 32, reg 1.0, alpha 10.0)",0.7734,0.5480,als_pyspark
+Baseline,Random,0.0826,0.0378,model_comparison
+Baseline,Most popular,0.5728,0.3408,model_comparison
